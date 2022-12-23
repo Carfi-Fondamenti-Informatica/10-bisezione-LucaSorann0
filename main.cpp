@@ -23,6 +23,9 @@ b=x;
 err = (b-a)/2;
 }
 }while ((err >= 1e-6)||(-err >= 1e-6));
-cout << x;
+x=x*1e4;
+   x=(int)x;
+   x=x/1e4;
+   cout << x;
    return 0;
 }
