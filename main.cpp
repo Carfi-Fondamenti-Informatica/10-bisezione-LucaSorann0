@@ -9,7 +9,7 @@ return arg*arg*cos(arg)+1;
 int main() {
    float a=0, b=0, x=0, err=0;
 while (f(a)*f(b)>=0) {
-cout << "inserire valori" << endl;
+cout << "inserire estremi" << endl;
 cin >> a >> b;
 }
 do {
@@ -23,6 +23,6 @@ b=x;
 err = (b-a)/2;
 }
 }while ((err >= 1e-6)||(-err >= 1e-6));
-printf ("%2.2f, %1.3f", x, f(x));
+printf ("%.4", x);
    return 0;
 }
