@@ -23,6 +23,6 @@ b=x;
 err = (b-a)/2;
 }
 }while ((err >= 1e-6)||(-err >= 1e-6));
-printf ("%.4f, %.4f", x, f(x));
+printf ("%.3f, %.4f", x, f(x));
    return 0;
 }
